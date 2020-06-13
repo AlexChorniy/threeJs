@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>ThreeJs</title>
+</head>
+<body>
+	<div class="navigation">
+		<select id="dropdown">
+			<option value="4" selected="selected">Select</option>
+			<option id="sphere" value="1">sphere</option>
+			<option id="cube" value="2">cube</option>
+			<option id="pyramid" value="3">pyramid</option>
+		</select>
+		<input id="scale" placeholder="1-10"/>
+		<button id="button">Create</button>
+	</div>
+	<div id="canvas"></div>
+	<div id="uuid">
+		<div id="uuid-value"></div>
+		<div id="cross">X</div>
+	</div>
+	<script type="text/javascript" src="js/three.js"></script>
+	<script type="text/javascript" src="./js/OrbitControls.js"></script>
+	<script type="text/javascript" src="./js/scene.js"></script>	
+	<script type="text/javascript" src="./js/elements.js"></script>	
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
